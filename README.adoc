@@ -26,7 +26,86 @@ toc::[]
 
 == Lab | Description:
 
+In this lab, you will be using the Sakila database of movie rentals. You can follow the steps listed here to get the data locally: Sakila sample database - installation. You can work with two sql query files - `sakila-schema.sql` (creates the schema) + 
+`sakila-data.sql` which inserts the data.
+
+The ERD is pictured below - not all tables are shown, but many of the key fields you will be using are visible:
+
+
+
+
+
+image::https://user-images.githubusercontent.com/63274055/147613177-ea085b64-ec42-40d0-a9cb-7246fdecb303.png[width=400]
+
+
 == Instructions
+=== 1.- Use sakila database.
+`Answer:`
+[,sql]
+----
+USE sakila;
+----
+=== 2.- Get all the data from tables `actor`, `film` and `customer`.
+`Answer:`
+[,sql]
+----
+SELECT
+    *
+FROM
+    actor,
+    film,
+    customer;
+----
+=== 3.- Get film titles.
+`Answer:`
+[,sql]
+----
+SELECT
+    title
+FROM
+    film;
+----
+=== 4.- Get unique list of film languages under the alias `language`. Note that we are not asking you to obtain the language per each film, but this is a good time to think about how you might get that information in the future.
+`Answer:`
+[,sql]
+----
+SELECT
+    DISTINCT name AS language
+FROM
+    language;
+----
+=== 5.- Task:
+==== 5.1.- Find out how many stores does the company have?
+`Answer:`
+[,sql]
+----
+SELECT
+    count(*)
+FROM
+    store;
+----
+==== 5.2.- Find out how many employees staff does the company have?
+`Answer:`
+[,sql]
+----
+SELECT
+    count(*)
+FROM
+    staff;
+----
+==== 5.3.- Return a list of employee first names only?
+`Answer:`
+[,sql]
+----
+SELECT
+    first_name
+FROM
+    staff;
+----
+
+
+
+
 https://github.com/stars/jecastrom/lists/sql-ironhack-labs[SQL Lab intro script only]
 
 [,sql]
