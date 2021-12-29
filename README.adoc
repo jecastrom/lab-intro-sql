@@ -1,4 +1,4 @@
-.Lab | SQL Queries intro
+= Lab | SQL Queries intro
 :toc:
 :toc-title: Lab Content
 :toc-placement!:
