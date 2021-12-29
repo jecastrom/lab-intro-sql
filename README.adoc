@@ -114,9 +114,6 @@ https://github.com/stars/jecastrom/lists/sql-ironhack-labs[SQL Lab intro script 
 ----
 
 
-[NOTE]
-====
-A sample note admonition.
-====
- 
-TIP: It works!
+A statement.footnote:[Clarification about this statement.]
+
+A bold statement.footnoteref:[disclaimer,These opinions are my own.]
