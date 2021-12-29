@@ -112,7 +112,9 @@ https://github.com/stars/jecastrom/lists/sql-ironhack-labs[SQL Lab intro script 
 .Horizontal rule
 
 
+This is the end of the sentence 
 .Page break
+
 Back to <<Lab | Description:>>
 
 
