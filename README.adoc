@@ -109,7 +109,10 @@ FROM
 
 https://github.com/stars/jecastrom/lists/sql-ironhack-labs[SQL Lab intro script only]
 
+.Horizontal rule
 
+
+.Page break
 Back to <<Lab | Description:>>
 
 .Horizontal rule
