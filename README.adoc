@@ -21,7 +21,8 @@ image::https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a
                                                                          
 ```
 ```
-
+A statement.footnote:[Clarification about this statement.]
+A bold statement.footnoteref:[disclaimer,These opinions are my own.]
 toc::[]
 
 = Lab | Description:
@@ -114,6 +115,4 @@ https://github.com/stars/jecastrom/lists/sql-ironhack-labs[SQL Lab intro script 
 ----
 
 
-A statement.footnote:[Clarification about this statement.]
 
-A bold statement.footnoteref:[disclaimer,These opinions are my own.]
