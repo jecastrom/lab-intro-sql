@@ -75,6 +75,7 @@ FROM
     language;
 ----
 === 5.- Task:
+
 ==== 5.1.- Find out how many stores does the company have?
 `Answer:`
 [,sql]
