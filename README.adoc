@@ -115,7 +115,7 @@ https://github.com/stars/jecastrom/lists/sql-ironhack-labs[SQL Lab intro script 
 .Page break
 Back to <<Lab | Description:>>
 
-.Horizontal rule
 
 
-.Page break
+
+
